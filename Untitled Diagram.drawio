@@ -1,9 +1,15 @@
-<mxfile modified="2023-12-15T09:21:11.556Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="piBauzRLd8jY1lTPNh7D" version="22.1.9" type="github">
+<mxfile modified="2023-12-15T09:43:48.564Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="piEGTpkSc1OxCwKYn5R_" version="22.1.9" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
-    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="1349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="m9IVO3NYtKKrF4-hxz30-39" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="230" y="30" width="560" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="m9IVO3NYtKKrF4-hxz30-36" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-30" width="650" height="650" as="geometry" />
+        </mxCell>
         <mxCell id="AcxdMaKK0mU5kZiv2lnr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;" parent="1" target="AcxdMaKK0mU5kZiv2lnr-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -28,9 +34,9 @@
         <mxCell id="AcxdMaKK0mU5kZiv2lnr-4" value="Azure Security Group" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=none;fontColor=#333333;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="230" y="160" width="230" height="151" as="geometry" />
         </mxCell>
-        <mxCell id="AcxdMaKK0mU5kZiv2lnr-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.364;exitY=0.004;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#808080;" parent="1" edge="1">
+        <mxCell id="AcxdMaKK0mU5kZiv2lnr-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="795.9800000000001" y="350.00000000000006" as="sourcePoint" />
+            <mxPoint x="770" y="340" as="sourcePoint" />
             <mxPoint x="740" y="260" as="targetPoint" />
             <Array as="points">
               <mxPoint x="770" y="350" />
@@ -59,9 +65,9 @@
             <mxPoint x="126" y="246" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m9IVO3NYtKKrF4-hxz30-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m9IVO3NYtKKrF4-hxz30-11" target="m9IVO3NYtKKrF4-hxz30-4">
+        <mxCell id="m9IVO3NYtKKrF4-hxz30-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=open;startFill=0;" edge="1" parent="1" source="m9IVO3NYtKKrF4-hxz30-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="635" y="260" as="targetPoint" />
+            <mxPoint x="655" y="260" as="targetPoint" />
             <Array as="points">
               <mxPoint x="610" y="260" />
             </Array>
@@ -83,11 +89,11 @@
             <mxPoint x="516" y="228.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m9IVO3NYtKKrF4-hxz30-16" value="Azure Load Balancer" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="m9IVO3NYtKKrF4-hxz30-16" value="Azure Load Balancer&lt;br&gt;&lt;br&gt;&lt;br&gt;Frontend IP&lt;br&gt;20.211.192.167&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="150" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="m9IVO3NYtKKrF4-hxz30-17" value="Jumphost VM" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="162" width="150" height="40" as="geometry" />
+        <mxCell id="m9IVO3NYtKKrF4-hxz30-17" value="Jumphost VM&lt;br&gt;Ansible&lt;br&gt;&lt;br&gt;&lt;div style=&quot;font-weight: inherit; height: 35.2px; outline: none !important;&quot; class=&quot;azc-formElementSubLabelContainer&quot;&gt;&lt;div style=&quot;font-weight: inherit; height: 35.2px; outline: none !important;&quot; data-bind=&quot;untrustedHtml: { html: htmlTemplate, data: innerViewModel, isolated: isolated }&quot; class=&quot;azc-formElementContainer&quot;&gt;&lt;a style=&quot;font-weight: inherit; text-decoration-line: none; cursor: pointer; outline: none !important;&quot; aria-label=&quot;20.70.64.209 Public IP address&quot; class=&quot;fxs-fxclick&quot; href=&quot;https://portal.azure.com/#&quot; tabindex=&quot;0&quot; aria-disabled=&quot;false&quot; data-bind=&quot;text: text, fxclick: clickHandler, sanitizedAttr: { &#39;aria-label&#39;: ariaLabelText, href: uri }, visible: showLink&quot; role=&quot;link&quot; target=&quot;_blank&quot;&gt;20.70.64.209&lt;/a&gt;&lt;/div&gt;&lt;label style=&quot;font-weight: inherit; margin-top: 1px; float: right; margin-bottom: -1px; color: var(--colorTextPrimary); outline: none !important;&quot; aria-hidden=&quot;true&quot; data-bind=&quot;untrustedContent: $data&quot; class=&quot;azc-text-sublabel msportalfx-tooltip-overflow&quot;&gt;&lt;/label&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(41, 40, 39); font-family: az_ea_font, &amp;quot;Segoe UI&amp;quot;, az_font, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 13px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="150" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="m9IVO3NYtKKrF4-hxz30-19" value="Web-1" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="394" width="150" height="40" as="geometry" />
@@ -97,6 +103,61 @@
         </mxCell>
         <mxCell id="m9IVO3NYtKKrF4-hxz30-24" value="LB Backend Pool" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="635" y="432.5" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m9IVO3NYtKKrF4-hxz30-25" value="&lt;br&gt;&lt;br&gt;&lt;div class=&quot;azc-formElementSubLabelContainer&quot; style=&quot;font-weight: inherit; height: 35.2px; outline: none !important;&quot;&gt;&lt;div class=&quot;azc-formElementContainer&quot; data-bind=&quot;untrustedHtml: { html: htmlTemplate, data: innerViewModel, isolated: isolated }&quot; style=&quot;font-weight: inherit; height: 35.2px; outline: none !important;&quot;&gt;10.0.0.5&lt;/div&gt;&lt;label class=&quot;azc-text-sublabel msportalfx-tooltip-overflow&quot; data-bind=&quot;untrustedContent: $data&quot; aria-hidden=&quot;true&quot; style=&quot;font-weight: inherit; margin-top: 1px; float: right; margin-bottom: -1px; color: var(--colorTextPrimary); outline: none !important;&quot;&gt;&lt;/label&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(41, 40, 39); font-family: az_ea_font, &amp;quot;Segoe UI&amp;quot;, az_font, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 13px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="567" y="190" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m9IVO3NYtKKrF4-hxz30-26" value="&lt;br&gt;&lt;br&gt;&lt;div class=&quot;azc-formElementSubLabelContainer&quot; style=&quot;font-weight: inherit; height: 35.2px; outline: none !important;&quot;&gt;&lt;div class=&quot;azc-formElementContainer&quot; data-bind=&quot;untrustedHtml: { html: htmlTemplate, data: innerViewModel, isolated: isolated }&quot; style=&quot;font-weight: inherit; height: 35.2px; outline: none !important;&quot;&gt;10.0.0.7&lt;/div&gt;&lt;label class=&quot;azc-text-sublabel msportalfx-tooltip-overflow&quot; data-bind=&quot;untrustedContent: $data&quot; aria-hidden=&quot;true&quot; style=&quot;font-weight: inherit; margin-top: 1px; float: right; margin-bottom: -1px; color: var(--colorTextPrimary); outline: none !important;&quot;&gt;&lt;/label&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(41, 40, 39); font-family: az_ea_font, &amp;quot;Segoe UI&amp;quot;, az_font, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 13px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="394" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m9IVO3NYtKKrF4-hxz30-27" value="&lt;br&gt;&lt;br&gt;&lt;div class=&quot;azc-formElementSubLabelContainer&quot; style=&quot;font-weight: inherit; height: 35.2px; outline: none !important;&quot;&gt;&lt;div class=&quot;azc-formElementContainer&quot; data-bind=&quot;untrustedHtml: { html: htmlTemplate, data: innerViewModel, isolated: isolated }&quot; style=&quot;font-weight: inherit; height: 35.2px; outline: none !important;&quot;&gt;10.0.0.8&lt;/div&gt;&lt;label class=&quot;azc-text-sublabel msportalfx-tooltip-overflow&quot; data-bind=&quot;untrustedContent: $data&quot; aria-hidden=&quot;true&quot; style=&quot;font-weight: inherit; margin-top: 1px; float: right; margin-bottom: -1px; color: var(--colorTextPrimary); outline: none !important;&quot;&gt;&lt;/label&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(41, 40, 39); font-family: az_ea_font, &amp;quot;Segoe UI&amp;quot;, az_font, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Open Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 13px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="391" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m9IVO3NYtKKrF4-hxz30-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="m9IVO3NYtKKrF4-hxz30-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="144" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m9IVO3NYtKKrF4-hxz30-29" value="SSH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="m9IVO3NYtKKrF4-hxz30-28">
+          <mxGeometry x="0.778" y="3" relative="1" as="geometry">
+            <mxPoint x="35" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m9IVO3NYtKKrF4-hxz30-30" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;fillColor=#f8cecc;strokeColor=#b87051;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="151.5" y="394" as="sourcePoint" />
+            <mxPoint x="650" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="151.5" y="304" />
+              <mxPoint x="538.5" y="304" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m9IVO3NYtKKrF4-hxz30-31" value="HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="m9IVO3NYtKKrF4-hxz30-30">
+          <mxGeometry x="0.778" y="3" relative="1" as="geometry">
+            <mxPoint x="53" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m9IVO3NYtKKrF4-hxz30-33" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.enterprise.not_allowed;fillColor=#EA1C24;" vertex="1" parent="1">
+          <mxGeometry x="250" y="180" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m9IVO3NYtKKrF4-hxz30-34" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.user" vertex="1" parent="1">
+          <mxGeometry x="30" y="129" width="47" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m9IVO3NYtKKrF4-hxz30-35" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.36;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85161;" edge="1" parent="1" source="m9IVO3NYtKKrF4-hxz30-34" target="m9IVO3NYtKKrF4-hxz30-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m9IVO3NYtKKrF4-hxz30-37" value="Azure Resource Group&lt;br&gt;RedTeam-RG" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-70" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m9IVO3NYtKKrF4-hxz30-38" value="Azure Virtual Network 10.0.0.0/16" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="-10" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m9IVO3NYtKKrF4-hxz30-41" value="Azure Virtual Subnet 10.0.0.0/24" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="50" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
